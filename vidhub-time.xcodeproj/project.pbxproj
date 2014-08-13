@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B115A8199C29B80097C7FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B115A7199C29B80097C7FD /* main.swift */; };
+		23B115AA199C29B80097C7FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B115A9199C29B80097C7FD /* ViewController.swift */; };
+		23B115AC199C29B80097C7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B115AB199C29B80097C7FD /* AppDelegate.swift */; };
+		23B115AF199C29B80097C7FD /* vidhub_time.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23B115AD199C29B80097C7FD /* vidhub_time.xcdatamodeld */; };
+		23B115B1199C29B80097C7FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B115B0199C29B80097C7FD /* Images.xcassets */; };
+		23B115B4199C29B80097C7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B115B2199C29B80097C7FD /* Main.storyboard */; };
+		23B115C0199C29B80097C7FD /* vidhub_timeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B115BF199C29B80097C7FD /* vidhub_timeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23B115BA199C29B80097C7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B1159A199C29B80097C7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B115A1199C29B80097C7FD;
+			remoteInfo = "vidhub-time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23B115A2199C29B80097C7FD /* vidhub-time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vidhub-time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B115A6199C29B80097C7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B115A7199C29B80097C7FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		23B115A9199C29B80097C7FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23B115AB199C29B80097C7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23B115AE199C29B80097C7FD /* vidhub_time.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vidhub_time.xcdatamodel; sourceTree = "<group>"; };
+		23B115B0199C29B80097C7FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23B115B3199C29B80097C7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23B115B9199C29B80097C7FD /* vidhub-timeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vidhub-timeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B115BE199C29B80097C7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B115BF199C29B80097C7FD /* vidhub_timeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vidhub_timeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B1159F199C29B80097C7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B115B6199C29B80097C7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B11599199C29B80097C7FD = {
+			isa = PBXGroup;
+			children = (
+				23B115A4199C29B80097C7FD /* vidhub-time */,
+				23B115BC199C29B80097C7FD /* vidhub-timeTests */,
+				23B115A3199C29B80097C7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B115A3199C29B80097C7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B115A2199C29B80097C7FD /* vidhub-time.app */,
+				23B115B9199C29B80097C7FD /* vidhub-timeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B115A4199C29B80097C7FD /* vidhub-time */ = {
+			isa = PBXGroup;
+			children = (
+				23B115A9199C29B80097C7FD /* ViewController.swift */,
+				23B115AB199C29B80097C7FD /* AppDelegate.swift */,
+				23B115B0199C29B80097C7FD /* Images.xcassets */,
+				23B115B2199C29B80097C7FD /* Main.storyboard */,
+				23B115AD199C29B80097C7FD /* vidhub_time.xcdatamodeld */,
+				23B115A5199C29B80097C7FD /* Supporting Files */,
+			);
+			path = "vidhub-time";
+			sourceTree = "<group>";
+		};
+		23B115A5199C29B80097C7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B115A6199C29B80097C7FD /* Info.plist */,
+				23B115A7199C29B80097C7FD /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23B115BC199C29B80097C7FD /* vidhub-timeTests */ = {
+			isa = PBXGroup;
+			children = (
+				23B115BF199C29B80097C7FD /* vidhub_timeTests.swift */,
+				23B115BD199C29B80097C7FD /* Supporting Files */,
+			);
+			path = "vidhub-timeTests";
+			sourceTree = "<group>";
+		};
+		23B115BD199C29B80097C7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B115BE199C29B80097C7FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B115A1199C29B80097C7FD /* vidhub-time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B115C3199C29B80097C7FD /* Build configuration list for PBXNativeTarget "vidhub-time" */;
+			buildPhases = (
+				23B1159E199C29B80097C7FD /* Sources */,
+				23B1159F199C29B80097C7FD /* Frameworks */,
+				23B115A0199C29B80097C7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vidhub-time";
+			productName = "vidhub-time";
+			productReference = 23B115A2199C29B80097C7FD /* vidhub-time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23B115B8199C29B80097C7FD /* vidhub-timeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B115C6199C29B80097C7FD /* Build configuration list for PBXNativeTarget "vidhub-timeTests" */;
+			buildPhases = (
+				23B115B5199C29B80097C7FD /* Sources */,
+				23B115B6199C29B80097C7FD /* Frameworks */,
+				23B115B7199C29B80097C7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B115BB199C29B80097C7FD /* PBXTargetDependency */,
+			);
+			name = "vidhub-timeTests";
+			productName = "vidhub-timeTests";
+			productReference = 23B115B9199C29B80097C7FD /* vidhub-timeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B1159A199C29B80097C7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Vidhub;
+				TargetAttributes = {
+					23B115A1199C29B80097C7FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					23B115B8199C29B80097C7FD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 23B115A1199C29B80097C7FD;
+					};
+				};
+			};
+			buildConfigurationList = 23B1159D199C29B80097C7FD /* Build configuration list for PBXProject "vidhub-time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B11599199C29B80097C7FD;
+			productRefGroup = 23B115A3199C29B80097C7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B115A1199C29B80097C7FD /* vidhub-time */,
+				23B115B8199C29B80097C7FD /* vidhub-timeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B115A0199C29B80097C7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B115B1199C29B80097C7FD /* Images.xcassets in Resources */,
+				23B115B4199C29B80097C7FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B115B7199C29B80097C7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B1159E199C29B80097C7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B115AF199C29B80097C7FD /* vidhub_time.xcdatamodeld in Sources */,
+				23B115AC199C29B80097C7FD /* AppDelegate.swift in Sources */,
+				23B115AA199C29B80097C7FD /* ViewController.swift in Sources */,
+				23B115A8199C29B80097C7FD /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B115B5199C29B80097C7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B115C0199C29B80097C7FD /* vidhub_timeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23B115BB199C29B80097C7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B115A1199C29B80097C7FD /* vidhub-time */;
+			targetProxy = 23B115BA199C29B80097C7FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23B115B2199C29B80097C7FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B115B3199C29B80097C7FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B115C1199C29B80097C7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23B115C2199C29B80097C7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23B115C4199C29B80097C7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vidhub-time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23B115C5199C29B80097C7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vidhub-time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23B115C7199C29B80097C7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vidhub-time.app/Contents/MacOS/vidhub-time";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vidhub-timeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		23B115C8199C29B80097C7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vidhub-time.app/Contents/MacOS/vidhub-time";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vidhub-timeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B1159D199C29B80097C7FD /* Build configuration list for PBXProject "vidhub-time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B115C1199C29B80097C7FD /* Debug */,
+				23B115C2199C29B80097C7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B115C3199C29B80097C7FD /* Build configuration list for PBXNativeTarget "vidhub-time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B115C4199C29B80097C7FD /* Debug */,
+				23B115C5199C29B80097C7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23B115C6199C29B80097C7FD /* Build configuration list for PBXNativeTarget "vidhub-timeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B115C7199C29B80097C7FD /* Debug */,
+				23B115C8199C29B80097C7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23B115AD199C29B80097C7FD /* vidhub_time.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23B115AE199C29B80097C7FD /* vidhub_time.xcdatamodel */,
+			);
+			currentVersion = 23B115AE199C29B80097C7FD /* vidhub_time.xcdatamodel */;
+			path = vidhub_time.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23B1159A199C29B80097C7FD /* Project object */;
+}
